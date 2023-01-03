@@ -1,0 +1,549 @@
+/* Colors #000249 #0F4392 #DD1717 #FF4949 */
+
+ 
+
+ 
+
+/* TEMPLATE STUFF */
+
+ 
+
+/* Container Div (background color) */
+
+#container {
+
+        padding: 3%;
+
+}
+
+ 
+
+.banner {
+
+        width: 96%;
+
+        margin-left: 2%;
+
+        margin-right: 2%;
+
+        border-radius: 1em;
+
+}
+
+ 
+
+#small .banner {
+
+        width: 175%;
+
+        margin-left: -40%;
+
+        margin-right: -40%;
+
+        border-radius: 1em;
+
+}
+
+ 
+
+/* Body */
+
+body {
+
+        margin: 0;
+
+        background-color: #0F4392;
+
+}
+
+ 
+
+/* nav agian but hopfuly it works */
+@media only screen and (min-width: 1231px) {
+	
+iframe {
+	width: 50%;
+}
+	
+nav {
+	
+		margin-top: -1%;
+	
+        text-align: center;
+
+        margin-bottom:5em;
+
+        margin-left: auto;
+
+        margin-right: auto;
+
+}
+
+ 
+
+/* nav list */
+
+nav ul {
+
+        margin-left: auto;
+
+        margin-right: auto;
+		
+		padding-left:auto;
+		padding-right:auto;
+
+}
+
+ 
+
+/* Nav List Items */
+
+nav li {
+
+        list-style-type: none;
+		
+        background-color: #FF4949;
+
+        padding: 0.25%;
+
+        border-radius: 1em;
+
+        border: solid;
+
+        border-top-width: 0.35em;
+		border-bottom-width: 0.35em;
+        border-left-width: 0;
+		border-right-width: 0;
+
+        border-color: #DD1717;
+
+        display: inline;
+
+        margin: .5%;
+
+        float: left;
+
+        width: 18%;
+
+        font-weight: bold;
+
+        font-size: 1.5em;
+
+        font-family: "Now", "Lucida Console", "Courier New", monospace;
+
+}
+
+ 
+
+/* Nav List Item Links */
+
+	nav li a {
+
+        text-decoration:none;
+
+        color: #000000;
+
+       
+
+}
+	
+
+}
+
+/* hr style */
+
+#break hr {
+
+        border-radius: 1em;
+		
+		margin-top:5%;
+
+        border: solid;
+
+        border-width: 0.5em;
+
+        border-color: #DD1717;
+
+        width: 95%;   
+
+}
+
+ 
+
+/* banner initial states */
+
+#big {
+
+        display: inline;
+
+}
+
+       
+
+#small {
+
+        display: none;
+
+}
+
+ 
+
+/* Main Style */
+
+main {
+
+        background-color: #FF4949;
+
+        margin-top: 1em;
+
+        padding-top: 0.5em;
+
+        padding-bottom: 0.5em;
+
+        padding-left: 2%;
+
+        padding-right: 2%;
+
+        border-radius: 1em;
+
+        border: solid;
+
+        border-top-width: 0.5em;
+		border-bottom-width: 0.5em;
+        border-left-width: 0;
+		border-right-width: 0;
+
+        border-color: #DD1717;
+
+        font-weight: bold;
+
+        font-size: 1.5em;
+
+        font-family: "Lucida Console", "Courier New", monospace;
+
+        margin-left: auto;
+
+        margin-right: auto;
+
+        width:90%;
+
+        text-align: center;
+
+}
+
+ 
+
+/* Footer Style */
+
+footer {
+
+        margin-top:0;
+
+        text-align: center;
+
+        background-color: #DD1717;
+
+        width:30%;
+
+        margin-left:35%;
+
+        margin-right:35%;
+
+        border-radius: 0 0 1em 1em;
+
+        padding-bottom:0.5em;
+
+        color: #000000;
+
+        font-weight: bold;
+
+        font-family: "Lucida Console", "Courier New", monospace;
+
+        padding-left:0.5em;
+
+        padding-right:0.5em;
+
+}
+
+ 
+
+footer hr {
+
+        border-radius: 1em;
+
+        border: solid;
+
+        border-width: 0.25em;
+
+        border-color: #FF4949;
+
+        width: 90%;
+
+        margin-top:0;
+
+}
+
+ 
+
+footer a {
+
+        color: #0F4392;
+
+        font-weight: bold;
+
+}
+
+ 
+
+ 
+
+/* Media query for screens with less than 1141width */
+
+@media only screen and (max-width: 1230px) {
+ 
+		iframe {
+			width: 97%;
+		}
+
+        /* Style specifies a horizontal display for navigation links */
+
+        hr {
+
+               display: none;
+
+        }
+
+       
+
+        main {
+
+               margin-top:-1%;
+
+               padding:0.2em;
+			   
+			   width:97.5%;
+			   
+			   margin-left:auto;
+			   margin-right:auto;
+
+        }
+
+       
+
+        footer{
+
+               background-color:transparent;
+
+               margin-top:1.5%;
+
+               width:90%;
+
+               margin-left:5%;
+
+               margin-right:5%;
+
+        }
+
+       
+
+        footer a {
+
+               color: #000249;
+
+        }
+
+       
+
+               /* Style for nav specifies text properties */
+
+        nav {
+			
+				margin-top: -2%;
+
+               font-family: "Now", "Lucida Console", "Courier New", monospace;
+
+               font-size: 1.5em;
+
+               font-weight: bold;
+
+               text-align: center;
+
+        }
+
+ 
+
+        /* Style specifies padding and margins for unordered list */
+
+        nav ul {
+
+               padding: 0;
+
+        }
+
+ 
+
+        /* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
+
+        nav li {
+
+               background-color: #FF4949;
+
+               border-radius: 1em;
+
+               border: solid;
+
+               border-width: 0.35em;
+
+               border-color: #DD1717;
+
+               list-style-type: none;
+
+               margin: 0.3em;
+
+               padding: 0.4em; 
+
+        }
+
+ 
+
+        /* Style changes navigation link text color to white and removes the underline */
+
+        nav li a {
+
+               color: #000000;
+
+               text-decoration: none;
+
+        }
+
+       
+
+}
+
+ 
+
+/* Media query for screens with less than 695 width */
+
+@media only screen and (max-width: 695px) {
+
+       
+
+        /* Fix width */
+
+        #container {
+
+              
+
+               width: 94%;
+
+        }
+
+       
+
+        /* reajust main & nav top margin */
+
+        main {
+
+               margin-top:-2%;
+			   margin-left:auto;
+			   margin-right:auto;
+			   padding-left:auto;
+			   padding-right:auto;
+
+        }
+
+        nav {
+			
+			margin-top: -8%;
+			
+		}
+
+       
+
+        #big {
+
+               display: none;
+
+        }
+
+       
+
+        #small {
+
+               display: inline;
+
+        }
+		
+		h1{
+			font-size: 125%;
+		}
+		
+		h3{
+			font-size: 100%;
+		}
+		
+		p{
+			font-size: 75%;
+		}
+}
+
+ 
+
+ 
+
+/* END OF TEMPLATE STUFF */
+main a {
+	color: #0F4392;
+}
+
+main #break hr {
+		border-radius: 1em;
+		
+		margin-top:1%;
+
+        border: solid;
+
+        border-width: 0.25em;
+
+        border-color: #DD1717;
+
+        width: 95%;   
+}
+
+main img {
+	border-radius: 2em;
+	border: solid;
+	border-color: #DD1717;
+	border-width: 0.5em;
+	margin-top:-0.5%;
+	width:50%;
+}
+
+table {
+	width:100%;
+	margin-left:0;
+	margin-right:0;
+}
+
+table, th, td {
+	border: solid;
+
+	border-width: 0.1em;
+	
+	border-radius: 0.5em;
+
+	border-color: #DD1717;
+	
+	font-size: 85%;
+	
+	padding-left: auto;
+	padding-right: auto;
+}
+
+#bold {
+	font-weight: bolder;
+}
+
+iframe {
+	border-radius: 5%;
+}
